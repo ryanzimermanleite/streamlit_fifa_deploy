@@ -16,10 +16,10 @@ st.sidebar.markdown("Desenvolvido por [Ryan Zimerman Leite] (https://www.linkedi
 
 
 
-btn = st.button("Acesse os dados no Kaggle")
+btn = st.link_button("Acesse os dados no Kaggle", 
+                     "https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database", 
+                     )
 
-if btn:
-    webbrowser.open_new_tab("https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database")
 
 st.markdown(
     """
